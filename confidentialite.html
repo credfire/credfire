@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buzzcut — Confidentialité</title>
+  <style>
+    :root { color-scheme: light dark; --fond: #ffffff; --texte: #1d1d1f; --doux: #5f5f66; --lien: #1a5fd0; }
+    @media (prefers-color-scheme: dark) { :root { --fond: #141416; --texte: #f2f2f4; --doux: #a4a4ad; --lien: #7fb0ff; } }
+    body { margin: 0; background: var(--fond); color: var(--texte); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 2rem; margin: 0 0 4px; }
+    h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+    .sous-titre { color: var(--doux); margin: 0 0 24px; }
+    a { color: var(--lien); }
+    footer { margin-top: 48px; color: var(--doux); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité</h1>
+  <p class="sous-titre">Buzzcut · en vigueur le 18 novembre 2026</p>
+
+  <p>Buzzcut est une application Windows personnelle qui découpe des vidéos en clips courts et peut les publier sur la chaîne YouTube
+  de son utilisateur. Cette page dit quelles données elle utilise, et ce qu'elle en fait.</p>
+
+  <h2>Services API de YouTube</h2>
+  <p>Buzzcut utilise les services API de YouTube (YouTube API Services) pour publier des vidéos. En reliant votre compte, vous acceptez
+  les <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a>. Les données traitées par Google le sont selon les
+  <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a>.</p>
+
+  <h2>Données utilisées</h2>
+  <p>Avec votre autorisation, Buzzcut accède à votre compte YouTube pour deux choses seulement :</p>
+  <ul>
+    <li>envoyer les vidéos que vous choisissez de publier, avec le titre, la description et la date de publication que vous avez saisis ;</li>
+    <li>lire le nom de votre chaîne et l'état de visibilité des vidéos que Buzzcut a envoyées, pour vous les afficher.</li>
+  </ul>
+  <p>Buzzcut ne lit ni vos autres vidéos, ni vos commentaires, ni vos statistiques, et ne modifie ni ne supprime rien sur votre chaîne.</p>
+
+  <h2>Stockage et partage</h2>
+  <p>Buzzcut n'a pas de serveur. L'autorisation donnée par Google est enregistrée uniquement sur votre ordinateur, chiffrée pour votre
+  session Windows. Aucune donnée n'est envoyée à l'auteur de Buzzcut ni à un tiers, en dehors des envois à YouTube que vous demandez.
+  Buzzcut n'utilise ni publicité, ni mesure d'audience, ni cookie.</p>
+
+  <h2>Retirer l'accès et supprimer les données</h2>
+  <p>Dans Buzzcut, « Comptes » puis « Délier » retire l'autorisation chez Google et l'efface de votre ordinateur. Vous pouvez aussi la retirer
+  à tout moment depuis la page <a href="https://myaccount.google.com/permissions">Applications ayant accès à votre compte</a>
+  de votre compte Google. Les vidéos publiées restent sur votre chaîne : elles se gèrent dans YouTube Studio.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question : <a href="https://github.com/credfire">github.com/credfire</a>.</p>
+
+  <footer><a href="./">Accueil de Buzzcut</a></footer>
+</main>
+</body>
+</html>
